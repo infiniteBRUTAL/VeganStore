@@ -1,0 +1,386 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+#topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 77px;
+    box-sizing: border-box;
+    padding: 0 28px;
+}
+
+#logo img {
+    width: 48px;
+}
+
+#logo img:hover {
+    cursor: pointer;
+}
+
+.menu-items {
+    color: #000;
+    font-weight: 600;
+    font-size: 14px;
+    margin-right: 24px;
+}
+
+.menu-items:hover {
+    cursor: pointer;
+}
+
+#buy-btn {
+    font-size: 12px;font-weight: 600;
+    color: #fff;background-color: rgb(170, 210, 54);
+    padding: 9px 34px; border-radius: 4px;margin-right: 16px;
+    border: 1px solid transparent;
+}
+
+#buy-btn:hover {
+    color: rgb(170, 210, 54);
+    background-color: #fff;
+    border: 1px solid rgb(170, 210, 54);
+    cursor: pointer;
+}
+
+#landing-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png');
+    background-size: cover;
+}
+
+#heading {
+    width: 100%;
+    max-width: 1100px;
+    font-size: 44px;
+    font-weight: 600;
+    letter-spacing: 8.8px;
+    line-height: 1.2;
+}
+
+#description {
+    width: 100%;
+    max-width: 1100px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: #8b8b99;
+    margin-top: 32px;
+}
+
+#steps-section {
+    display: flex;
+    height: 70vh;
+}
+
+.steps {
+    width: 25%;
+    padding: 112px 48px;
+    text-align: center;
+    color: #fff;
+}
+
+.step-icons {
+    font-size: 96px;
+}
+
+#step-01 {
+    background-color: #5acda6;
+}
+
+#step-02 {
+    background-color: #91ac41;
+}
+
+#step-03 {
+    background-color: #e4b476;
+}
+
+#step-04 {
+    background-color: #f69dad;
+}
+
+.steps-title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.steps-description {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+}
+
+#about-store-section {
+    width: 100%;
+    height: 95vh;
+    text-align: center;
+    padding: 110px 48px;
+    background-color: #f7eee2;
+    box-sizing: border-box;
+}
+
+.fresh-food {
+    color: #91ac41;
+    font-family: 'Caveat', cursive;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-size: 44px;
+    margin: 0;
+    margin-bottom: 6px;
+}
+
+#about-store-section div {
+    display: flex;
+    width: 100%;
+    max-width: 1140px;
+    margin: 36px auto;
+    box-sizing: border-box;
+}
+
+.store-items-container {
+    width: 25%;
+    padding: 48px 24px;
+    box-sizing: border-box;
+}
+
+.store-items-container i {
+    font-size: 60px;
+    color: #fff;
+    padding: 40px;
+    margin: 16px;
+    border-radius: 50%;
+    background-color: #e3b375;
+}
+
+.store-item-name {
+    font-size: 24px;
+    padding: 4px 0;
+}
+
+.store-description {
+    max-width: 700px;
+    color: #8b8b99;
+    margin: 12px auto 40px auto;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+
+#testimonial-section {
+    text-align: center;
+    padding: 75px 0;
+}
+
+#testimonial-section div {
+    width: 100%;
+    max-width: 1140px;
+    display: flex;
+    align-items: center;
+    margin: 24px auto;
+}
+
+.testimonial {
+    width: 25%;
+    padding: 36px;
+    margin: 16px;
+    text-align: center;
+    background-color: #f5f6fb;
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+}
+
+.testimonial img {
+    width: 72px;
+    border-radius: 50%;
+}
+
+.testimonial-review, .job {
+    letter-spacing: 0.5px;
+    color: #8b8b99;
+    margin: 12px 0;
+    font-size: 14px;
+    font-style: italic ;
+}
+
+.testimonial-from {
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.job {
+    margin: 0;
+}
+
+#subscription-section {
+    display: flex;
+    width: 100%;
+    height: 80vh;
+}
+
+#subscribe-left {
+    width: 67.7%;
+}
+
+#subscribe-left img {
+    width: 100%;
+    height: 100%;
+}
+
+#subscribe-right {
+    background-image: url('https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png');
+    width: 33.3%;
+    padding: 115px;
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+#subscribe-right p{
+    margin: 0;
+    color: #8b8b99;
+}
+
+#email-field {
+    box-sizing: border-box;
+    width: 100%;
+    letter-spacing: 0.8px;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    margin-top: 60px;
+}
+
+#first-secondary-btn {
+    color: #fff;
+    background-color: #f69dad;
+    border: 1px solid transparent;
+    padding: 16px 40px;
+    font-size: 14px;
+    border-radius: 4px;
+    margin: 14px 0;
+    font-weight: 600;
+}
+
+#first-secondary-btn:hover {
+    cursor: pointer;
+    color: #f69dad;
+    background-color: #fff;
+    border: 1px solid #f69dad;
+}
+
+#data-section {
+    padding: 100px 0;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    background-color: #f6fcfa;
+}
+
+.data-desc {
+    color: #57e3b5;
+    margin: 0;
+    font-style: italic;
+    font-size: 14px;
+}
+
+#contact-section {
+    display: flex;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 95vh;
+}
+
+.contact-essential-heading {
+    color: #91ac41;
+    font-family: 'Caveat', cursive;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+#address-section {
+    width: 50%;
+}
+
+#contact-attractions {
+    color: #8b8b99;
+}
+
+#address-section h4 {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.address {
+    margin-top: 0;
+    color: #8b8b99;
+    line-height: 2.2;
+}
+
+#get-in-touch-section {
+    width: 50%;
+    margin-left: 220px;
+    box-sizing: border-box;
+}
+
+#get-in-touch-section input, #get-in-touch-section textarea {
+    color: #8b8b99;
+    padding: 20px 14px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin: 12px 0;
+}
+
+#second-secondary-btn {
+    padding: 12px 32px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(170, 210, 54);
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+#second-secondary-btn:hover {
+    border: 1px solid rgb(170, 210, 54);
+    background-color: #fff;
+    color: rgb(170, 210, 54);
+    cursor: pointer;
+}
+
+#footer-bottom {
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    padding: 36px 0;
+    width: 100%;
+}
+
+
+
